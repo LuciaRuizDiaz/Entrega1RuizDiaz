@@ -14,5 +14,7 @@ class Servicios (models.Model):
     nombre = models.CharField(max_length=50)
     areaejecutora = models.CharField(max_length=50)
     
+
+    
     
     

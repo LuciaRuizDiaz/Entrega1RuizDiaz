@@ -7,3 +7,7 @@ class FormularioProfesionales (Form):
     nombre= CharField(max_length=50)
     apellido= CharField(max_length=50)
     area = CharField(max_length=50)
+    
+class FormularioServicios (Form):
+    nombre= CharField(max_length=50) 
+    areaejecutora = CharField(max_length=50)

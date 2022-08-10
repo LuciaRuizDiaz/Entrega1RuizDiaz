@@ -41,15 +41,7 @@
     
         <input type="submit" value="Buscar">
     </form>
-<p>
-    <form method="post" target="_blank">  {% csrf_token %}
-        
-        {{ formulario.as_p }}
 
-        <input type="submit" value="Crear">
-</form> 
-</p>    
-    
     {% block profesionales %}
     {% endblock profesionales %}
     
