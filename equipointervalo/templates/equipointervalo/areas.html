@@ -1,0 +1,22 @@
+{% extends 'equipointervalo/base.html' %}
+
+
+{% block areas %}
+
+{% for area in areas  %}
+    
+<section id="about">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>{{area.nombre}} </h2>
+                <p class="lead">{{area.descripcion}}</p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+{% endfor %}
+    
+{% endblock areas %}
+    

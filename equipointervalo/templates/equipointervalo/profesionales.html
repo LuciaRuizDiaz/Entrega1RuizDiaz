@@ -1,0 +1,24 @@
+{% extends 'equipointervalo/base.html' %}
+
+
+{% block profesionales %}
+
+
+{% for profesional in profesionales  %}
+  
+  <section id="about">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>{{profesional.nombre}}  {{profesional.apellido}}</h2>
+                <p class="lead">{{profesional.area}}</p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+{% endfor %}
+    
+    
+{% endblock profesionales %}
+    
